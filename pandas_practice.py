@@ -57,3 +57,16 @@ print("\n")
 # resetting the index 
 reset_seris = new_Series.reset_index()
 print(reset_seris)
+
+# slicing the series to get a portion, it like a list slicing 
+a = [22, 34, 43, 53, 63, 73, 83]
+b = pd.Series(a)
+print(b)
+
+#to get first three 
+c = b[:3]
+#to get last three 
+d = b[-3 : ]
+
+print(c)
+print(d)
